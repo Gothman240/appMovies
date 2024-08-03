@@ -56,6 +56,16 @@ dependencies {
     implementation(libs.gson)
     implementation(libs.converter.gson)
 
+    //ViewModel
+    implementation(libs.androidx.lifecycle.viewmodel.ktx)
+    //LiveData
+    implementation(libs.androidx.lifecycle.livedata.ktx)
+
+    //Glide -> mostrar imagenes
+    implementation (libs.glide)
+    annotationProcessor (libs.compiler)
+
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
