@@ -39,9 +39,7 @@ class MovieAdapter(
         return holder
     }
 
-    override fun getItemCount(): Int {
-        TODO("Not yet implemented")
-    }
+    override fun getItemCount(): Int = moviesList.size
 
     //cada uno de los datos se dibuja en pantalla
     override fun onBindViewHolder(holder: BaseViewHolder<*>, position: Int) {
